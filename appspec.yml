@@ -12,6 +12,3 @@ hooks:
     - location: scripts/sync_files.sh
       timeout: 300
       runas: root
-    - location: scripts/create_application_files.sh
-      timeout: 300
-      runas: root
