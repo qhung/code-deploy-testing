@@ -9,9 +9,6 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: scripts/change_permissions.sh
-      timeout: 300
-      runas: root
     - location: scripts/sync_files.sh
       timeout: 300
       runas: root
